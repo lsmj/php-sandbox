@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2c8e3423002461fd93cfbd0a3d3ccab8",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "lsmj/phrint",
+            "version": "v1.1.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lsmj/phrint.git",
+                "reference": "74cb413ed05b57b8847ab9eb0c4b6056a61e75a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lsmj/phrint/zipball/74cb413ed05b57b8847ab9eb0c4b6056a61e75a7",
+                "reference": "74cb413ed05b57b8847ab9eb0c4b6056a61e75a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "lsmj\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "lsmj",
+                    "email": "lyderjanoy@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "PHP state testing functions",
+            "keywords": [
+                "php"
+            ],
+            "time": "2020-07-05T08:41:20+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
