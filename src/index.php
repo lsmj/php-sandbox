@@ -1,15 +1,15 @@
 <?php
-require_once('vendor/autoload.php');
+require_once 'vendor/autoload.php';
 
 use lsmj\phrint;
 
 $demo_array = [
     'one',
     'two',
-    'three'
+    'three',
 ];
 
-phrint::p($demo_array);
+phrint::p($demoArray);
 
 ?>
 <script id="__bs_script__">
