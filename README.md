@@ -8,22 +8,23 @@ git clone https://github.com/lsmj/php-sandbox .
 composer install
 yarn install # or npm install
 ```
-## Starting the PHP server
-Linux/Mac:
-```bash
-sh ./src/serve.sh
-```
-Windows:
-```powershell
-./src/serve.ps1
-```
 
 ## Starting browsersync
 Linux/Mac:
 ```bash
-sh ./src/sync.sh
+bash ./src/sync.sh
 ```
 Windows:
 ```powershell
 ./src/sync.ps1
+```
+
+## Starting the PHP server
+Linux/Mac:
+```bash
+bash ./src/serve.sh
+```
+Windows:
+```powershell
+./src/serve.ps1
 ```
