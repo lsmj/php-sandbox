@@ -1,5 +1,15 @@
 {
+  "name": "phpsandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "sync": "./node_modules/.bin/browser-sync start --config bs-config.js"
+  },
+  "keywords": [],
+  "author": "lsmj",
+  "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.14"
   }
 }

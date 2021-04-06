@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c8e3423002461fd93cfbd0a3d3ccab8",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "fd5fb135ca930c6779146e59d93cbf9d",
+    "packages": [
         {
             "name": "lsmj/phrint",
-            "version": "v1.1.15",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lsmj/phrint.git",
-                "reference": "74cb413ed05b57b8847ab9eb0c4b6056a61e75a7"
+                "reference": "56c3dcff298b7f87bb6460415ccec269087e4903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsmj/phrint/zipball/74cb413ed05b57b8847ab9eb0c4b6056a61e75a7",
-                "reference": "74cb413ed05b57b8847ab9eb0c4b6056a61e75a7",
+                "url": "https://api.github.com/repos/lsmj/phrint/zipball/56c3dcff298b7f87bb6460415ccec269087e4903",
+                "reference": "56c3dcff298b7f87bb6460415ccec269087e4903",
                 "shasum": ""
             },
             "require": {
@@ -45,14 +44,20 @@
             "keywords": [
                 "php"
             ],
-            "time": "2020-07-05T08:41:20+00:00"
+            "support": {
+                "issues": "https://github.com/lsmj/phrint/issues",
+                "source": "https://github.com/lsmj/phrint/tree/v1.2.0"
+            },
+            "time": "2020-09-11T06:44:42+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

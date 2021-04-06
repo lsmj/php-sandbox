@@ -4,27 +4,20 @@ A fast and easy way to preview PHP locally in your browser with hot reloading. T
 
 ## Installation
 ```bash
-git clone https://github.com/lsmj/php-sandbox .
 composer install
-yarn install # or npm install
+yarn
 ```
 
-## Starting browsersync
-Linux/Mac:
+## Start browsersync
 ```bash
-bash ./src/sync.sh
-```
-Windows:
-```powershell
-./src/sync.ps1
+yarn sync
 ```
 
-## Starting the PHP server
-Linux/Mac:
+## Serve with Valet
+http://php-sandbox.test/
+
+## Serve with default php server
 ```bash
-bash ./src/serve.sh
+php -S localhost:8080
 ```
-Windows:
-```powershell
-./src/serve.ps1
-```
+http://localhost:8080

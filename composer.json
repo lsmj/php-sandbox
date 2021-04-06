@@ -1,5 +1,5 @@
 {
-    "require-dev": {
-        "lsmj/phrint": "^1.1"
+    "require": {
+        "lsmj/phrint": "^1.2"
     }
 }
